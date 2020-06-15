@@ -1,0 +1,67 @@
+.elementos img
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+}
+#idhabitaciones {
+    background-color: slateblue;
+}
+#idprecios {
+    background-color: rgb(43, 189, 226);
+}
+#idrecreativos {
+ background-color: rgb(128, 0, 111);
+}
+#idrestaurante {
+    background-color: rgb(18, 0, 111);
+   }
+#contenedor{
+    width: 700px;
+}
+#cabecera{
+   
+
+}
+#contenido{
+    float: left;
+    width: 550px;
+}
+#pie{
+    clear: both;
+    height: 50px;
+}
+#nav{
+    float: left;
+    height: 250px;
+}
+
+#nav ul li{
+display: inline;
+    margin: auto;
+     }
+       #nav ul li a
+       {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(250, 114, 250);
+    background-color: rgb(143, 157, 188);
+    text-decoration: none;
+    float: right;
+    padding: 30px;
+       }
+    
+       #nav ul li a:hover
+       {
+         background-color: lemonchiffon;
+         margin-top: -2;
+         padding-bottom: 12px;
+         border-radius: 100%;
+         }
+
+         #table, th, td{
+            border: 1px solid black;
+            border-collapse: red;
+         }

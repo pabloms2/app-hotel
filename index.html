@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="contenedor">
+  <div id="cabecera">
+      <img src="images/hotel.jpg" alt="Muestra una imagen de un hotel">
+      <h1>Hoteles <span class="spanmorado">I.E.S Alhadra</span></h1>
+  </div>
+      <div id="nav">
+        <ul id="menu">
+           <li><a class="active" href="#idinformacion">Información</a></li>
+           <li><a href="#idhabitaciones">Habitaciones</a></li>
+           <li><a href="#idrestaurante">Restaurante</a></li>
+           <li><a href="#idrecreativos">Recreativos</a></li>
+           <li><a href="#idprecios">Precios</a></li>
+        </ul>
+      
+      </div>
+      
+
+      </div>
+      <div id="contenido">
+        <div id="idinformacion" class="elementos">
+          <h2>Información</h2>
+          <p>Bienvenidos a la página de hoteles IES Alhadra, a continuación vamos a tratar temas relaciones con el hotel como las habitaciones, los recreativos, el restaurantes y los precios. Rellena los siguientes datos y empieza con la reserva.</p>
+          <form action="https://www.htmlquick.com/form-result.php"
+          method="GET">
+          
+          <fieldset>
+         <legend>Rellenar los datos</legend>
+         
+          <label>Nombre: <input type="text"
+          id="idNombre" name="nameNombre"></label><br>
+           <label>Apellidos: <input type="text"
+          id="idApellido" name="nameApellido"></label><br>
+          <label>Número de teléfono: <input type="number"
+            id="idNúmero" name="nameNúmero"></label><br>
+         </fieldset>
+         
+          
+         </form>
+        </div>
+        <div id="idhabitaciones" class="elementos">
+            <h2>Habitaciones</h2>
+            <img src="images/habitaciones.jpg" alt="En esta imagen aparece Habitaciones"> 
+        </div>  
+        <style>
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            </style>
+    <table style="width:100%">
+        <tr>
+          <th></th>
+          <th>Habitación</th>
+          <th>Características</th> 
+          <th>Vistas</th>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td>Habitación única</td>
+          <td>1 cama, 1 televisión , 1 sofa, 7 perchas y 2 chuches.</td>
+          <td>Vistas al mar</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Habitación doble</td>
+            <td>2 camas, 1 televisión , 1 sofa, 14 perchas y 5 chuches.</td>
+            <td>Vistas a la piscina</td>
+          
+          
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>Habitación triple</td>
+         
+          <td>3 camas, 2 televisiónes , 1 sofa, 21 perchas , 5 chuches y 2 entradas gratis al spa.</td>
+          <td>Vista a una terraza</td>
+    
+        </table>
+
+  <div id="idrestaurante" class="elementos">
+    <h2>Restaurante</h2>
+    <img src="images/restaurante.jpg" alt="En esta imagen aparece Restaurante"> 
+  </div>
+  <ol type='A'>
+    <li>Mañanas
+          <ul>
+                  <li>Tostadas<ul><li>Mermelada</li><li>Mantequilla</li></ul></li>
+                  <li>Cereales<ul><li>Copos de maíz</li><li>Avena</li></ul></li>
+                  <li>Batidos<ul><li>Chocolate</li><li>Vainilla</li></ul></li>
+          </ul>
+    
+    
+  </li>
+    <li>Medios dias
+     <ul>
+        <li>Carne<ul><li>Filete de vaca</li><li>Filete de cerdo</li></ul></li>
+        <li>Pescado<ul><li>Trucha</li><li>Dorada</li></ul></li>
+     </ul>
+   
+   <li>Cenas
+     <ul>
+        <li>Pizzas<ul><li>Pizza Hawaiana</li><li>Pizza Barbacoa</li></ul></li>
+        <li>Lasaña<ul><li>De carne</li><li>De espinacas</li></ul></li>
+     </ul>
+  </li>
+  </ol>        
+   
+  <div id="idrecreativos" class="elementos">
+    <h2>Recreativos</h2>
+    <img src="images/recreativos.jpg" alt="En esta imagen aparece Recreativos"> 
+   <p>Disponemos de muchisimos recreativo como un spa, una piscina, una pista de tenis, una pista de golf, una habitación de juegos que incluye un billar, un futbolin... y por último también tenemos una sala de pocker. Con la habitación solo entra una opción gratis, marca la que desees.</p>
+ 
+  </div>  
+  <form>
+    <fieldset>
+    <legend>recreativo</legend>
+    
+    <label for="idSelect">Recreativo gratis:
+    </label>
+    <select id="idSelect">
+    <option value="spa">spa</option>
+    <option value="piscina">piscina</option>
+    <option value="pista de tenis">pista de tenis</option>
+    <option value="pista de golf">pista de golf</option>
+    <option value="habitación de juegos">habitación de juegos</option>
+    <option value="sala de pocker">sala de pocker</option>
+   
+    </select>
+    <br>
+    
+    
+    <input type="submit" value="Enviar">
+    
+    </fieldset>
+    
+    </form>
+
+<div id="idprecios" class="elementos">
+    <h2>Precios</h2>
+    <img src="images/precios.jpg" alt="En esta imagen aparece Precios"> 
+    <p>Completa el siguiente formulario y te díremos el precio</p>
+  </div>  
+    <form>
+      <fieldset>
+      <legend>Registro</legend>
+      Nombre:<input type="text" id="idnombre" placeholder="Escribe aquí tu nombre"/> <br>
+      Fecha de reserva:<input type="date" id="idfecha" /> <br>
+
+      Selecciona el color de tus llaves de habitación:<input type="color" id="idColor" /> <br>
+     
+      Metete en nuestra web y envianos una foto de la habitación que mas te guste:<input type="file" id="idFoto" /> <br>
+      <label for="idSelect"> Número de acompañantes:
+      </label>
+      <select id="idSelect">
+      <option value="uno">Uno</option>
+      <option value="dos">Dos</option>
+      <option value="tres">Tres</option>
+     
+      </select>
+      <br>
+      
+      
+      <input type="submit" value="Enviar">
+      
+      </fieldset>
+      
+      </form>
+
+
+</div>
+
+<div id="pie">
+  <img src="images/logo.png" alt="En esta imagen aparece logo"> 
+</div>
